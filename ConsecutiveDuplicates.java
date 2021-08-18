@@ -14,6 +14,7 @@ class ConsecutiveDupicates
     }
     */
     // Above mentioned code is a recursive approach
+    // Time complexity is O(n^2)
 
     static void removeConsecutiveDuplicates(char[] s)
     {
@@ -31,6 +32,8 @@ class ConsecutiveDupicates
         System.out.println(Arrays.copyOfRange(s, 0, j+1));
     }
     // Above mentioned code is an iterative approach
+    // Time complexity is O(n)
+    
     public static void main(String gg[])
     {
         //String s="abaabbc"
